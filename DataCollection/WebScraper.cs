@@ -9,15 +9,13 @@ namespace Sentiment_Analysis_for_Stock_Market_Predictions.DataCollection
 {
     internal class WebScraper
     {
-        //
-
         public List<string> ScrapeNewsArticles(string url)
         {
             // Load articles from URL
             var articles = new List<string>();
             var web = new HtmlWeb(); 
             var doc = web.Load()
-
+                //not done
             var articleNodes = doc.DocumentNode.SelectNodes("...")
 
             foreach(var node in articleNodes)
