@@ -41,7 +41,11 @@ namespace Sentiment_Analysis_for_Stock_Market_Predictions.DataCollection
             var multipleArticles = new List<string>();
             var urls = new List<string>
             {
-
+                "https://finance.yahoo.com/",
+                "https://www.cnbc.com/",
+                "https://seekingalpha.com/",
+                "https://www.nytimes.com/",
+                "https://www.marketwatch.com/"
             };
 
             foreach (var url in urls)
